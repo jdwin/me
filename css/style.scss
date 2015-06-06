@@ -101,9 +101,26 @@ h1 {
     .reemond {
         left: 0%;
     }
+
+    .reemondDescription {
+        position: absolute;
+        width: 50%;
+        top: 0%;
+        left: 50%;
+        color: #FFF;
+    }
+
     .dArchitecture {
         top: 50%;
         left: 50%;
+    }
+
+    .dArchitectureDescription {
+        color: #FFF;
+        position: absolute;
+        width: 50%;
+        top: 50%;
+        left: 0%;
     }
 }
 

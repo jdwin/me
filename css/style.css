@@ -68,9 +68,21 @@ h1 {
       height: 100%; }
   .portfolio .reemond {
     left: 0%; }
+  .portfolio .reemondDescription {
+    position: absolute;
+    width: 50%;
+    top: 0%;
+    left: 50%;
+    color: #FFF; }
   .portfolio .dArchitecture {
     top: 50%;
     left: 50%; }
+  .portfolio .dArchitectureDescription {
+    color: #FFF;
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    left: 0%; }
 
 .cv {
   position: relative;
