@@ -99,16 +99,24 @@
     top: 10%;
     height: 80%;
     width: 40%;
-    left: 35%;
-    color: #FFF; }
+    left: 20%;
+    color: #FFF;
+    border-right: 5px solid #FFF;
+    padding-right: 10%; }
+    .cv .content h1 {
+      padding-bottom: 1%; }
     .cv .content h2 {
-      padding-bottom: 1%; }
-    .cv .content h3 {
       padding-top: 2%;
-      padding-bottom: 2%; }
-    .cv .content h4 {
+      padding-bottom: 2%;
+      font-weight: 900;
+      text-decoration: underline; }
+    .cv .content h3 {
       padding-top: 1%;
-      padding-bottom: 1%; }
+      padding-bottom: 1%;
+      font-weight: 800; }
+    .cv .content span {
+      margin-left: 5%;
+      font-style: italic; }
 
 .contact {
   position: relative;

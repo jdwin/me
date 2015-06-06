@@ -146,21 +146,31 @@ $mainFont: 'Open Sans', sans-serif;
         top: 10%;
         height: 80%;
         width: 40%;
-        left: 35%;
+        left: 20%;
         color: #FFF;
+        border-right: 5px solid #FFF;
+        padding-right: 10%;
+
+        h1 {
+            padding-bottom: 1%;
+        }
 
         h2 {
-            padding-bottom: 1%;
+            padding-top: 2%;
+            padding-bottom: 2%;
+            font-weight: 900;
+            text-decoration: underline;
         }
 
         h3 {
-            padding-top: 2%;
-            padding-bottom: 2%;
-        }
-
-        h4 {
             padding-top: 1%;
             padding-bottom: 1%;
+            font-weight: 800;
+        }
+
+        span {
+            margin-left: 5%;
+            font-style: italic;
         }
     }
 }
