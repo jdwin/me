@@ -51,14 +51,26 @@ h1 {
     top: 30%;
     width: 20%;
     left: 40%;
-    border: 1px solid green;
-    position: absolute; }
+    position: absolute;
+    color: #000; }
 
 .portfolio {
   position: relative;
   width: 100%;
   height: 100vh;
   background-color: #111; }
+  .portfolio .imgMedium {
+    position: absolute;
+    width: 50%;
+    height: 50%; }
+    .portfolio .imgMedium img {
+      width: 100%;
+      height: 100%; }
+  .portfolio .reemond {
+    left: 0%; }
+  .portfolio .dArchitecture {
+    top: 50%;
+    left: 50%; }
 
 .cv {
   position: relative;
