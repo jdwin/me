@@ -1,0 +1,107 @@
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+.contentContainer {
+  position: relative;
+  margin-top: 5vh;
+  left: 5vw;
+  width: 90vw;
+  height: 90vh;
+  overflow: hidden; }
+
+.content {
+  position: relative;
+  height: 100%;
+  width: 100.9%;
+  overflow: auto;
+  display: inline-block; }
+
+h1 {
+  text-align: center;
+  position: relative;
+  font-family: "Open Sans", sans-serif;
+  color: #FFF; }
+
+.splash {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-color: #0B0D01; }
+  .splash .earth {
+    position: relative;
+    width: 50vh;
+    height: 50vh;
+    border-radius: 25vh;
+    -moz-border-radius: 25vh;
+    -webkit-border-radius: 50vh;
+    border: 4px solid #260B1D;
+    background-color: transparent;
+    left: 35%;
+    top: 15%; }
+
+.intro {
+  position: relative;
+  height: 40vh;
+  width: 100%;
+  background-color: #222; }
+  .intro .introText {
+    top: 30%;
+    width: 20%;
+    left: 40%;
+    border: 1px solid green;
+    position: absolute; }
+
+.portfolio {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #111; }
+
+.cv {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #444; }
+  .cv .content {
+    position: relative;
+    top: 10%;
+    height: 80%;
+    width: 40%;
+    left: 35%; }
+
+.contact {
+  position: relative;
+  width: 100%;
+  height: 30vh;
+  background-color: #111;
+  font-size: 1.5vw;
+  text-align: center; }
+  .contact h3 {
+    padding-top: 5%; }
+  .contact a {
+    display: inline-block;
+    list-style: none;
+    text-decoration: none; }
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-color: #0B0D08;
+  font-family: "Open Sans", sans-serif; }
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box; }
+
+/*# sourceMappingURL=style.css.map */
