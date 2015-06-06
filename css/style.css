@@ -49,10 +49,13 @@ h1 {
   background-color: #222; }
   .intro .introText {
     top: 30%;
-    width: 20%;
+    width: 25%;
     left: 40%;
-    position: absolute;
-    color: #000; }
+    position: absolute; }
+    .intro .introText span {
+      font-size: 2vw; }
+    .intro .introText p {
+      color: #FFF; }
 
 .portfolio {
   position: relative;
@@ -70,9 +73,9 @@ h1 {
     left: 0%; }
   .portfolio .reemondDescription {
     position: absolute;
-    width: 50%;
-    top: 0%;
-    left: 50%;
+    width: 30%;
+    top: 15%;
+    left: 60%;
     color: #FFF; }
   .portfolio .dArchitecture {
     top: 50%;
@@ -80,21 +83,30 @@ h1 {
   .portfolio .dArchitectureDescription {
     color: #FFF;
     position: absolute;
-    width: 50%;
-    top: 50%;
-    left: 0%; }
+    width: 30%;
+    top: 65%;
+    left: 10%; }
 
 .cv {
   position: relative;
   width: 100%;
   height: 100vh;
-  background-color: #444; }
+  background-color: #222; }
   .cv .content {
     position: relative;
     top: 10%;
     height: 80%;
     width: 40%;
-    left: 35%; }
+    left: 35%;
+    color: #FFF; }
+    .cv .content h2 {
+      padding-bottom: 1%; }
+    .cv .content h3 {
+      padding-top: 2%;
+      padding-bottom: 2%; }
+    .cv .content h4 {
+      padding-top: 1%;
+      padding-bottom: 1%; }
 
 .contact {
   position: relative;
@@ -104,11 +116,13 @@ h1 {
   font-size: 1.5vw;
   text-align: center; }
   .contact h3 {
-    padding-top: 5%; }
+    padding-top: 5%;
+    color: #FFF; }
   .contact a {
     display: inline-block;
     list-style: none;
-    text-decoration: none; }
+    text-decoration: none;
+    color: #FFF; }
 
 body {
   margin: 0;
@@ -119,7 +133,7 @@ body {
   overflow: hidden;
   width: 100%;
   height: 100%;
-  background-color: #0B0D08;
+  background-color: #555;
   font-family: "Open Sans", sans-serif; }
 
 * {
