@@ -148,8 +148,6 @@ $mainFont: 'Open Sans', sans-serif;
         width: 40%;
         left: 20%;
         color: #FFF;
-        border-right: 5px solid #FFF;
-        padding-right: 10%;
 
         h1 {
             padding-bottom: 1%;
@@ -166,11 +164,20 @@ $mainFont: 'Open Sans', sans-serif;
             padding-top: 1%;
             padding-bottom: 1%;
             font-weight: 800;
+
+            span {
+                font-style: normal;
+                left: 25%;
+            }
         }
 
         span {
             margin-left: 5%;
             font-style: italic;
+        }
+
+        .workDate {
+
         }
     }
 }
