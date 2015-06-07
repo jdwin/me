@@ -74,11 +74,11 @@
     border-radius: 25vh;
     -moz-border-radius: 25vh;
     -webkit-border-radius: 50vh;
-    -webkit-animation: pulse 5s infinite;
-    -moz-animation: pulse 5s infinite;
-    -ms-animation: pulse 5s infinite;
-    -o-animation: pulse 5s infinite;
-    animation: pulse 5s infinite;
+    -webkit-animation: pulse 8s infinite;
+    -moz-animation: pulse 8s infinite;
+    -ms-animation: pulse 8s infinite;
+    -o-animation: pulse 8s infinite;
+    animation: pulse 8s infinite;
     position: relative;
     left: 35%;
     top: 15%;

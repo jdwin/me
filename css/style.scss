@@ -88,7 +88,7 @@ $mainFont: 'Open Sans', sans-serif;
 
     .earth {
         @include earth;
-        @include animationAll(pulse, 5s, infinite);
+        @include animationAll(pulse, 8s, infinite);
         position: relative;
         left: 35%;
         top: 15%;
