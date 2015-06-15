@@ -1,96 +1,106 @@
 @keyframes moonPhase {
   to {
-    box-shadow: inset 25vw 0 #FFF;
-    transform: rotate(25deg); } }
+    box-shadow: inset 14em 0 #555;
+    transform: rotate(10deg); } }
 @keyframes pulse {
   to {
     opacity: 0; } }
 .navMenu {
-  position: absolute;
-  right: 5%;
-  top: 40%;
-  width: 20%; }
+  position: fixed;
+  width: 15%;
+  height: auto;
+  bottom: 8%;
+  right: 9%;
+  z-index: 9; }
   .navMenu ul {
-    max-width: 100%;
+    position: absolute;
+    top: -50%;
+    right: 100%;
     list-style: none;
-    line-height: 2vw;
-    font-size: 1.2vw; }
-  .navMenu a {
-    text-decoration: none;
-    color: #FFF; }
-  .navMenu .listMarker {
-    width: 1vw;
-    height: 1vw;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    background: #FFF; }
+    display: none; }
+    .navMenu ul a {
+      color: #FFF; }
+    .navMenu ul li:first-child {
+      position: relative;
+      left: 30%; }
+    .navMenu ul li:nth-child(2) {
+      position: relative;
+      left: -20%;
+      padding-top: 10%; }
+    .navMenu ul li:nth-child(3) {
+      position: relative;
+      left: 0%;
+      padding-top: 10%; }
+
+.navButton {
+  border: 3px solid rgba(0, 0, 0, 0.8);
+  box-shadow: 2px 3px 5px #000;
+  background-color: #E02828;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  text-align: center; }
+  .navButton a {
+    color: #FFF;
+    font-size: 2.2em; }
 
 .container {
   position: relative;
   width: 100%;
   height: 100%;
-  overflow: hidden;
   background-color: #111; }
 
 .contentContainer {
   position: relative;
-  margin-top: 5vh;
-  left: 5vw;
-  width: 90vw;
-  height: 90vh;
-  overflow: hidden; }
-
-.content {
-  position: relative;
   height: 100%;
-  width: 100.9%;
-  overflow: auto;
-  display: inline-block; }
+  width: 100%; }
+
+.section {
+  width: 100%;
+  height: 100%; }
 
 .splash {
   position: relative;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   background-color: #111; }
-  .splash .earth {
-    width: 25vw;
-    height: 25vw;
+  .splash .moon {
+    width: 14em;
+    height: 0;
+    padding-bottom: 14em;
     border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
-    -webkit-animation: moonPhase 15s linear infinite;
-    -moz-animation: moonPhase 15s linear infinite;
-    -ms-animation: moonPhase 15s linear infinite;
-    -o-animation: moonPhase 15s linear infinite;
-    animation: moonPhase 15s linear infinite;
+    -webkit-animation: moonPhase 19s linear infinite;
+    -moz-animation: moonPhase 19s linear infinite;
+    -ms-animation: moonPhase 19s linear infinite;
+    -o-animation: moonPhase 19s linear infinite;
+    animation: moonPhase 19s linear infinite;
     position: relative;
-    left: 36%;
-    top: 10%;
+    left: 23%;
+    top: 24%;
     background: #000;
-    box-shadow: inset -25vw 0 #FFF;
-    transform: rotate(-25deg); }
+    box-shadow: inset -14em 0 #555;
+    transform: rotate(-10deg); }
   .splash h1 {
     position: relative;
     color: #FFF;
     left: 12%;
-    top: 30%;
+    top: 13%;
     width: 25%;
-    font-size: 3vw; }
-    .splash h1 span {
-      text-decoration: underline; }
+    font-size: 3em; }
   .splash h3 {
     position: relative;
     color: #FFF;
-    left: 19%;
-    top: 33%;
+    left: 40%;
+    top: 14%;
     width: 25%;
-    font-size: 1vw; }
+    font-size: 1em; }
   .splash .navArrow {
-    width: 6%;
-    position: relative;
-    left: 46%;
-    top: 20%; }
+    position: absolute;
+    width: 15%;
+    left: 42.5%;
+    top: 88vh; }
     .splash .navArrow img {
       -webkit-animation: pulse 1.8s linear infinite;
       -moz-animation: pulse 1.8s linear infinite;
@@ -102,62 +112,66 @@
 
 .intro {
   position: relative;
-  height: 40vh;
+  height: 40%;
   width: 100%;
   background-color: #222; }
   .intro .introText {
-    top: 30%;
-    width: 25%;
-    left: 40%;
+    top: 20%;
+    width: 80%;
+    left: 20%;
     position: absolute; }
     .intro .introText span {
-      font-size: 2vw; }
+      font-size: 2em; }
     .intro .introText p {
+      font-size: 1em;
       color: #FFF; }
 
 .portfolio {
   position: relative;
   width: 100%;
-  height: 100vh;
-  background-color: #111; }
+  height: 100%;
+  background-color: #111;
+  white-space: nowrap;
+  overflow: auto; }
   .portfolio .imgMedium {
     position: absolute;
-    width: 50%;
+    width: 100%;
     height: 50%; }
     .portfolio .imgMedium img {
       width: 100%;
       height: 100%; }
-  .portfolio .reemond {
-    left: 0%; }
-  .portfolio .reemondDescription {
-    position: absolute;
-    width: 30%;
-    top: 15%;
-    left: 60%;
-    color: #FFF; }
   .portfolio .dArchitecture {
-    top: 50%;
-    left: 50%; }
+    left: 100%;
+    top: 0%; }
+  .portfolio .workDescription {
+    position: relative;
+    width: 100%;
+    height: 50%;
+    top: 50%; }
+    .portfolio .workDescription p {
+      position: relative;
+      width: 100%;
+      color: #FFF;
+      white-space: normal; }
   .portfolio .dArchitectureDescription {
-    color: #FFF;
-    position: absolute;
-    width: 30%;
-    top: 65%;
-    left: 10%; }
+    left: 100%;
+    top: 0%; }
 
 .cv {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: auto;
+  padding-top: 10%;
+  padding-bottom: 10%;
   background-color: #222; }
   .cv .content {
     position: relative;
     top: 5%;
-    height: 90%;
-    width: 40%;
-    left: 20%;
+    width: 80%;
+    left: 10%;
     color: #FFF;
-    overflow: hidden; }
+    overflow: hidden;
+    font-size: 0.8em; }
     .cv .content h1 {
       padding-left: 2%;
       border-left: 2px solid #FFF; }
@@ -180,9 +194,8 @@
 .contact {
   position: relative;
   width: 100%;
-  height: 30vh;
+  height: 30%;
   background-color: #111;
-  font-size: 1.5vw;
   text-align: center; }
   .contact h3 {
     padding-top: 4%;
@@ -194,22 +207,26 @@
     text-decoration: none;
     color: #FFF; }
 
-body {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  box-sizing: border-box;
-  position: relative;
-  overflow: hidden;
+h1 {
+  font-size: 2em; }
+
+h2 {
+  font-size: 1.5em; }
+
+html, body {
   width: 100%;
   height: 100%;
   font-family: "Open Sans", sans-serif;
   background-color: #111; }
 
+html {
+  font-size: 12pt; }
+
 * {
   margin: 0;
   padding: 0;
   border: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */

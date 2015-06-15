@@ -4,6 +4,7 @@
         <title>JBaldwin</title>
         <meta charset="utf-8">
         <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/vendor/normalise.css">
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/style.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -11,18 +12,20 @@
     <body>
         <div class="container">
             <div class="contentContainer">
-                <div class="content">
-                    <div class="splash">
-                        <div class="navMenu">
-                            <ul>
-                                <li><a href="#projects">Projects</a></li>
-                                <li><a href="#cv">CV</a></li>
-                                <li><a href="#contact">Contact</a></li>
-                            </ul>
+                <div class="splash section">
+                    <div class="navMenu">
+                        <div class="navButton">
+                            <a>+</a>
                         </div>
-                        <h1>JBaldw<span>i</span>n</h1>
+                        <ul>
+                            <li><a href="#projects" class="targetScroll">Projects</a></li>
+                            <li><a href="#cv" class="targetScroll">CV</a></li>
+                            <li><a href="#contact" class="targetScroll">Contact</a></li>
+                        </ul>
+                    </div>
+                        <h1>JBaldwin</h1>
                         <h3>development</h3>
-                        <div class="earth"></div>
+                        <div class="moon"></div>
                         <div class="navArrow">
                             <img src="./img/arrowDown.png" alt="downArrow">
                         </div>
@@ -30,24 +33,29 @@
                     <div class="intro">
                         <div class="introText">
                             <p id="textTarget">
+                            <span>Hi.</span></br></br>
                             </p>
                         </div>
                     </div>
-                    <div class="portfolio" id="projects">
+                    <div class="portfolio section" id="projects">
                         <div class="imgMedium reemond">
                             <img src="./img/reemondSite1.jpg" alt="reemondSite1.jpg">
                         </div>
                         <div class="workDescription reemondDescription">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.">
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
                         </div>
                         <div class="imgMedium dArchitecture">
                             <img src="./img/dArchitecture1.jpg" alt="dArchitecture.jpg">
                         </div>
                         <div class="workDescription dArchitectureDescription">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.">
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
                         </div>
                     </div>
-                    <div class="cv" id="cv">
+                    <div class="cv section" id="cv">
                         <div class="content">
                         <h1>About</h1>
                         <br>
@@ -95,7 +103,8 @@
 
                     </div>
                     </div>
-                    <div class="contact" id="contact">
+                    <div class="contact section">
+                        <a id="contact"></a>
                         <h3>Contact</h3>
                         <a href="https://www.github.com/sarkio">Github</a>
                         /
@@ -105,7 +114,6 @@
                     </div>
                 </div>
             </div>
-        </div>
         <script src="js/main.js"></script>
     </body>
 </HTML>

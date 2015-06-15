@@ -13,4 +13,25 @@ function delayText(letter, target) {
     }, 100 * i);
 }
 
+$(".navButton").click(function() {
+    $(".navMenu ul").toggle();
+});
+
 deployText(sentence, target);
+
+$(document).ready(function() {
+    $(".targetScroll").click(function(e) {
+        e.preventDefault();
+
+        var id = $(this).attr("href");
+        var offset = $(id).offset();
+
+        $("html, body").animate({
+        scrollTop: offset.top
+        }, 1000);
+    });
+});
+
+
+//make project section side scrolling. Populate text boxes depending on what prject shown. 
+////context menu on left side that shows different project and can go to different ones
